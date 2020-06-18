@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Complete Binary Tree Visualizer</h1>
+    <button id="Add-btn" onclick="addNode()">Add Node</button>    
+    <button id="Clear-btn" onclick="clearTree()">Clear Tree</button>
+    <input id="data" type="text" placeholder="Add here..."> 
+    <br><br>
+    <button id="inorder-btn" onclick="traverseInorder()">In-Order</button>
+    <button id="preorder-btn">Pre-Order</button>
+    <button id="postorder-btn">Post-Order</button>
+    <br><br>
+    <canvas id="canvas"></canvas>
+    <script src="Node.js"></script>
+    <script src="BinaryTree.js"></script>
+    <script src="canvas.js"></script>
+</body>
+</html>
